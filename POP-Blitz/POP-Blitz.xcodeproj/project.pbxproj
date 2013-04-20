@@ -401,6 +401,7 @@
 		4C636E0417224A9000C61CD0 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		4C784CDE1722505E00307541 /* PBTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTile.h; sourceTree = "<group>"; };
 		4C784CDF1722505E00307541 /* PBTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTile.m; sourceTree = "<group>"; };
+		4C784CE2172252BB00307541 /* PBCommonTypesDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommonTypesDef.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -839,6 +840,7 @@
 		4C784CE11722507200307541 /* PBFundation */ = {
 			isa = PBXGroup;
 			children = (
+				4C784CE2172252BB00307541 /* PBCommonTypesDef.h */,
 				4C784CDE1722505E00307541 /* PBTile.h */,
 				4C784CDF1722505E00307541 /* PBTile.m */,
 			);
