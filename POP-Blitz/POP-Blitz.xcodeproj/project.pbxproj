@@ -133,6 +133,7 @@
 		4C636DFF17224A9000C61CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636DFE17224A9000C61CD0 /* AppDelegate.m */; };
 		4C636E0217224A9000C61CD0 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636E0117224A9000C61CD0 /* HelloWorldLayer.m */; };
 		4C636E0517224A9000C61CD0 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636E0417224A9000C61CD0 /* IntroLayer.m */; };
+		4C784CE01722505E00307541 /* PBTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C784CDF1722505E00307541 /* PBTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +399,8 @@
 		4C636E0117224A9000C61CD0 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		4C636E0317224A9000C61CD0 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		4C636E0417224A9000C61CD0 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		4C784CDE1722505E00307541 /* PBTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTile.h; sourceTree = "<group>"; };
+		4C784CDF1722505E00307541 /* PBTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +459,7 @@
 		4C636C8517224A8E00C61CD0 /* POP-Blitz */ = {
 			isa = PBXGroup;
 			children = (
+				4C784CE11722507200307541 /* PBFundation */,
 				4C636DFD17224A9000C61CD0 /* AppDelegate.h */,
 				4C636DFE17224A9000C61CD0 /* AppDelegate.m */,
 				4C636E0017224A9000C61CD0 /* HelloWorldLayer.h */,
@@ -832,6 +836,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4C784CE11722507200307541 /* PBFundation */ = {
+			isa = PBXGroup;
+			children = (
+				4C784CDE1722505E00307541 /* PBTile.h */,
+				4C784CDF1722505E00307541 /* PBTile.m */,
+			);
+			name = PBFundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1009,6 +1022,7 @@
 				4C636DFF17224A9000C61CD0 /* AppDelegate.m in Sources */,
 				4C636E0217224A9000C61CD0 /* HelloWorldLayer.m in Sources */,
 				4C636E0517224A9000C61CD0 /* IntroLayer.m in Sources */,
+				4C784CE01722505E00307541 /* PBTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1126,7 @@
 				4C636E0A17224A9000C61CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
