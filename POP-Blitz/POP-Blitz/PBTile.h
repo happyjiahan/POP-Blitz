@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface PBTile : NSObject
+{
+    CCSprite *sprite;
+}
+@property (nonatomic, retain) CCSprite *sprite;
 
 @end

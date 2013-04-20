@@ -9,5 +9,22 @@
 #import "PBTile.h"
 
 @implementation PBTile
+@synthesize sprite;
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
+- (void)dealloc
+{
+    self.sprite = nil;
+    
+    [super dealloc];
+}
 @end
