@@ -134,6 +134,7 @@
 		4C636E0217224A9000C61CD0 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636E0117224A9000C61CD0 /* HelloWorldLayer.m */; };
 		4C636E0517224A9000C61CD0 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636E0417224A9000C61CD0 /* IntroLayer.m */; };
 		4C784CE01722505E00307541 /* PBTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C784CDF1722505E00307541 /* PBTile.m */; };
+		4CE27CAF17225BC400907CB1 /* PBMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27CAE17225BC400907CB1 /* PBMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -402,6 +403,8 @@
 		4C784CDE1722505E00307541 /* PBTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTile.h; sourceTree = "<group>"; };
 		4C784CDF1722505E00307541 /* PBTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTile.m; sourceTree = "<group>"; };
 		4C784CE2172252BB00307541 /* PBCommonTypesDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommonTypesDef.h; sourceTree = "<group>"; };
+		4CE27CAD17225BC400907CB1 /* PBMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBMap.h; sourceTree = "<group>"; };
+		4CE27CAE17225BC400907CB1 /* PBMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -843,6 +846,8 @@
 				4C784CE2172252BB00307541 /* PBCommonTypesDef.h */,
 				4C784CDE1722505E00307541 /* PBTile.h */,
 				4C784CDF1722505E00307541 /* PBTile.m */,
+				4CE27CAD17225BC400907CB1 /* PBMap.h */,
+				4CE27CAE17225BC400907CB1 /* PBMap.m */,
 			);
 			name = PBFundation;
 			sourceTree = "<group>";
@@ -1025,6 +1030,7 @@
 				4C636E0217224A9000C61CD0 /* HelloWorldLayer.m in Sources */,
 				4C636E0517224A9000C61CD0 /* IntroLayer.m in Sources */,
 				4C784CE01722505E00307541 /* PBTile.m in Sources */,
+				4CE27CAF17225BC400907CB1 /* PBMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
