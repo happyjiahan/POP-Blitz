@@ -11,12 +11,17 @@
 #import "AppDelegate.h"
 #import "IntroLayer.h"
 
+#import "PBMapManager.h"
+
 @implementation AppController
 
 @synthesize window=window_, navController=navController_, director=director_;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    PBMapManager *mapManager = [[[PBMapManager alloc] init] autorelease];
+    
+    
 	// Create the main window
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 

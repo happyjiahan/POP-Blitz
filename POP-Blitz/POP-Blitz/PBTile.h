@@ -17,4 +17,5 @@
 @property (nonatomic, assign) PBTileType type;
 @property (nonatomic, retain) CCSprite *sprite;
 
+- (id)initWithType:(PBTileType)aType;
 @end

@@ -12,11 +12,11 @@
 @synthesize type;
 @synthesize sprite;
 
-- (id)init
+- (id)initWithType:(PBTileType)aType
 {
     self = [super init];
     if (self) {
-        
+        self.type = aType;
     }
     
     return self;

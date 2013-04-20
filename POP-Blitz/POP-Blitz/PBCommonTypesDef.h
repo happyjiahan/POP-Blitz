@@ -24,4 +24,10 @@ typedef enum {
     
 } PBTileType;
 
+typedef struct {
+    int width;
+    int height;
+} PBMapSize;
+
+
 #endif
