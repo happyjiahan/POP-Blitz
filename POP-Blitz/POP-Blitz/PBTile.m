@@ -9,6 +9,7 @@
 #import "PBTile.h"
 
 @implementation PBTile
+@synthesize type;
 @synthesize sprite;
 
 - (id)init
