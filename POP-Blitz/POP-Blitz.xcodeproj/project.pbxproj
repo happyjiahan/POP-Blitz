@@ -135,6 +135,7 @@
 		4C636E0517224A9000C61CD0 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636E0417224A9000C61CD0 /* IntroLayer.m */; };
 		4C784CE01722505E00307541 /* PBTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C784CDF1722505E00307541 /* PBTile.m */; };
 		4CE27CAF17225BC400907CB1 /* PBMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27CAE17225BC400907CB1 /* PBMap.m */; };
+		4CE27CB217225F2E00907CB1 /* PBMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27CB117225F2E00907CB1 /* PBMapManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -405,6 +406,8 @@
 		4C784CE2172252BB00307541 /* PBCommonTypesDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommonTypesDef.h; sourceTree = "<group>"; };
 		4CE27CAD17225BC400907CB1 /* PBMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBMap.h; sourceTree = "<group>"; };
 		4CE27CAE17225BC400907CB1 /* PBMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBMap.m; sourceTree = "<group>"; };
+		4CE27CB017225F2E00907CB1 /* PBMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBMapManager.h; sourceTree = "<group>"; };
+		4CE27CB117225F2E00907CB1 /* PBMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBMapManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -848,6 +851,8 @@
 				4C784CDF1722505E00307541 /* PBTile.m */,
 				4CE27CAD17225BC400907CB1 /* PBMap.h */,
 				4CE27CAE17225BC400907CB1 /* PBMap.m */,
+				4CE27CB017225F2E00907CB1 /* PBMapManager.h */,
+				4CE27CB117225F2E00907CB1 /* PBMapManager.m */,
 			);
 			name = PBFundation;
 			sourceTree = "<group>";
@@ -1031,6 +1036,7 @@
 				4C636E0517224A9000C61CD0 /* IntroLayer.m in Sources */,
 				4C784CE01722505E00307541 /* PBTile.m in Sources */,
 				4CE27CAF17225BC400907CB1 /* PBMap.m in Sources */,
+				4CE27CB217225F2E00907CB1 /* PBMapManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
